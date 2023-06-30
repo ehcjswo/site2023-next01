@@ -841,8 +841,8 @@ img {
     text-transform: uppercase;
 }
 .bg-blue {
-    background-color: #f6f8fd;
-    background-color: var(--bg_section);
+    background-color: #f6fff8;
+    /* background-color: var(--bg_section); */
 }
 .button-primary {
     background-color: #4856ec;

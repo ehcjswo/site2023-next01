@@ -1,0 +1,107 @@
+.movies__wrap {
+    overflow: hidden;
+  }
+  
+  .movies__inner {
+    height: 720px;
+  }
+  .movies__inner h3 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  .movies__inner p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .movies__inner a {
+    padding: 15px 60px;
+    background-color: #FF3344;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 30px;
+  }
+  .movies__inner .movies__item {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+  }
+  .movies__inner .movies__item > div {
+    width: 300px;
+    height: 600px;
+    margin-right: 20px;
+  }
+  .movies__inner .movies__item > div > img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .movie__tag div {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .movie__tag div button {
+    border: 1px solid #f7100D;
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: #000;
+    border-radius: 15px;
+    background: #fff;
+  }
+  
+  .movie__cont ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .movie__cont ul li {
+    width: 24%;
+    position: relative;
+    margin-bottom: 2%;
+  }
+  .movie__cont ul li .title {
+    display: inline-block;
+    font-size: 20px;
+    padding: 3px;
+  }
+  .movie__cont ul li .title:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  .movie__cont ul li .star {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .movie__search {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .movie__search input {
+    border: 1px solid #E8ECF2;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    min-width: 300px;
+    margin-right: 10px;
+    margin-top: 40px;
+  }
+  .movie__search button {
+    background-color: #F7100D;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+  }
