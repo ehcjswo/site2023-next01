@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import "movie.module.css";
+import "./movie.module.css";
 
 const Movie = (props) => {
     return (
