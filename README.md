@@ -6,7 +6,7 @@
 View Site : https://dh2023-react01.netlify.app/
 
 
-👋 소개
+👋 소개<br>
 Next.js를 기반으로 셰프를 소개하는 플랫폼입니다. 이 사이트는 React의 강력한 컴포넌트 기반 아키텍처를 활용하여 모듈화된 디자인과 사용자 친화적인 인터페이스를 제공합니다. Restful API를 활용하여 다양한 정보를 외부 API로부터 불러와 동적으로 표시합니다. YouTube API, Unsplash API, Movie API 등을 이용하여 예술 작품, 아티스트의 이미지, 영화와 관련된 정보들을 쉽게 찾아볼 수 있습니다.
 
 
